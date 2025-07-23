@@ -1,0 +1,46 @@
+# Build 결과물
+*.obj
+*.exe
+*.pch
+*.pdb
+*.ilk
+*.lib
+*.exp
+*.dll
+
+# Visual Studio 관련
+.vscode/
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.VC.db
+*.VC.opendb
+
+# CMake 빌드 디렉토리 (CMake 쓸 경우)
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# 로그 / 임시 파일
+*.log
+*.tmp
+
+# 빌드 폴더 (bin, build, out 등)
+bin/
+build/
+out/
+Debug/
+Release/
+x64/
+x86/
+
+# 백업 파일
+*~
+*.bak
+
+# 기타 IDE
+.idea/
+*.code-workspace
